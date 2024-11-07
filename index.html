@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>personal portfolio</title>
+    <script src="https://kit.fontawesome.com/8a955f76ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="imag/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Asad Abbas</span><br> from Pakistan</h1>
+            </div>
+         </div>
+    </div>
+   <!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imag/asa.jpg">
+                </div> 
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm Asad Abbbas my profession is web development.I create website's for brands or person for their work or businesses with attractive style and tech so they can express themselve's through  beautiful site that attract's the viewer and he can reach the admin who's current using it.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web development</span><br>web app development</li>
+                            <li><span>App development</span><br>Building ios/android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Designing Web/App interface</li>
+                            <li><span>2021-2023</span><br>web managment at RYK Sugar mills</li>
+                            <li><span>App development</span><br>internship at state life eCommerce</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Graduation(B.S.C) BISE MULTAN </li>
+                        <li><span>2018</span><br>Intermediate(ICS) BISE MULTAN</li>
+                        <li><span>2016</span><br>Matriculation(sciencs) from Educators schools</li>
+                    </ul>           
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-----------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>I can design web on your own demands which will create a stunning and user freindly experience for your visitors.<ul>
+                        <li>Custom Designs:Tailored websites that reflect your brand idenity.</li>
+                        <li>Responsive Layouts:Ensure your website looks great on all device</li>
+                        <li>E-commerce Solution:Start selling online with your e-commerce platform</li>
+                    </ul></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Custom web solutions to transform your business and enhance your digital strategy.Affordable and professional web development</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I will develop high-quality mobile apps that provide seamless user experiences<ul>
+                        <li>iOS Development:Create apps for iphone users.</li>
+                        <li>Andriod Development:Reach Android users effectively</li>
+                        <li>Cross-platform Development:Develop apps that work on multiple platforms</li>
+                        <a href="#">Learn more</a>
+                    </ul></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------portfolio------- -->
+    <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imag/port1.jpg">
+                    <div class="layer">
+                        <h3>Website Design</h3>
+                        <p>Design website which express your work with some style and attractive layouts.Viewer can easily understand that what is the site is about.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imag/port2.jpg">
+                    <div class="layer">
+                        <h3>App Design</h3>
+                        <p>Design APP which express your work with attractive layouts that is easily connectable to the main site.Viewer can easily reach to the main admin of the site.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="imag/port3.jpg">
+                    <div class="layer">
+                        <h3>Resposive Web</h3>
+                        <p>Design responsive web which express your work in mobile, tab, and pc with different layout's.Viewer can easily reach to the admin through mobile app, tab and pc.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+          </div>
+    </div>
+<!--------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>asadaligilani98@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i>03271759965</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i>asad_gilani98</a>
+                <a href="#"><i class="fa-brands fa-square-snapchat"></i>asad4349</a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i>03271759965</a>
+                </div>
+                <a href="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+<div  class="copyright">copyright@ ASAD. Made by Asad Abbas</div>
+
+    <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+               
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                    
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                    
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu() {
+              sidemenu.style.right = "0"
+        }
+        function closemenu() {
+              sidemenu.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
